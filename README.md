@@ -113,6 +113,10 @@ from tcpsai,sites_unique_vecinos
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
+<br />
 
 
 ## 2. Alertas
@@ -149,6 +153,29 @@ select *
 from tcpsai.alarm_activas_caida_sitio_4g_ana_last
 ;
 ```
+
+
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+## 3. Tabla resumen de anomalias
+
+<br />
+<br />
+
+
+
+
 
 
 <br />
