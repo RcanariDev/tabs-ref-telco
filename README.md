@@ -168,11 +168,74 @@ from tcpsai.alarm_activas_caida_sitio_4g_ana_last
 <br />
 
 
-## 3. Tabla resumen de anomalias
+## 3. Data cada 15 min
 
 <br />
 <br />
 
+- Tabla número de usuarios - 15 min
+
+```sql
+select *
+from tcpsai.tcpcell_kpi_summary_15min_users_11
+;
+```
+
+<br />
+<br />
+
+- Tabla KPIs 15 min
+
+```sql
+select *
+from tcpsai_kpi_summary_15min_11
+;
+```
+
+
+<br />
+<br />
+
+- Tabla Throughput 15 min
+
+```sql
+select *
+from tcpsai_thr_summary_10min_11
+;
+```
+
+<br />
+<br />
+
+- Tabla indice de moran 15 min (var: rtt)
+
+```sql
+select *
+from tcpsai.sites_15min_localmoran
+;
+```
+
+
+
+<br />
+<br />
+
+
+## 4. Tabla resumen de anomalias
+
+<br />
+<br />
+
+- Resumen anomalias
+
+<br />
+
+
+```sql
+select *
+from tcpsai.data_eval_13
+;
+```
 
 
 
