@@ -38,8 +38,30 @@ from tcpsai.ref_users_11
 
 <br />
 <br />
+<br />
 
-- 
+
+## 2. Alertas
+
+<br />
+<br />
+
+- Vistas de alertas por sites
+
+```sql
+select *
+from tcpsai.alarm_activas_caida_mbts_ana_last
+;
+
+select *
+from tcpsai.alarm_activas_caida_celda_4g_ana_last
+;
+
+select *
+from tcpsai.alarm_activas_caida_sitio_4g_ana_last
+;
+```
+
 
 
 <br />
