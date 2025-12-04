@@ -30,7 +30,7 @@ from tcpsai.ref_thr_browsing
 
 <br />
 
-```py
+```sql
 select *
 from tcpsai.ref_users_11
 ;
