@@ -94,6 +94,27 @@ from tcpsai.ref_cl_rtt_long
 ```
 
 
+<br />
+<br />
+
+- 5 vecinos más cercanos
+
+<br />
+
+```sql
+select *
+from tcpsai,sites_unique_vecinos
+;
+```
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
 ## 2. Alertas
 
 <br />
