@@ -103,7 +103,7 @@ from tcpsai.ref_cl_rtt_long
 
 ```sql
 select *
-from tcpsai,sites_unique_vecinos
+from tcpsai.sites_unique_vecinos
 ;
 ```
 
