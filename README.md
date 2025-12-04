@@ -48,7 +48,21 @@ from tcpsai.ref_users_11
 
 - Vistas de alertas por sites
 
+
+
 ```sql
+# Vista consolidada
+
+select *
+from tcpsai.alarm_activas_4g_consolidado
+;
+```
+
+<br />
+
+```sql
+# Vistas separadas por tabla (juntas forman la vista: alarm_activas_4g_consolidado)
+
 select *
 from tcpsai.alarm_activas_caida_mbts_ana_last
 ;
@@ -61,7 +75,6 @@ select *
 from tcpsai.alarm_activas_caida_sitio_4g_ana_last
 ;
 ```
-
 
 
 <br />
