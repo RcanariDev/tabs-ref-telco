@@ -40,6 +40,59 @@ from tcpsai.ref_users_11
 <br />
 <br />
 
+- Información de sites únicos
+
+<br />
+
+```sql
+select *
+from tcpsai.sites_unique
+;
+```
+
+
+<br />
+<br />
+<br />
+
+- Valores umbrales de los KPIs
+
+<br />
+
+```sql
+select *
+from tcpsai.ref_synack_delay
+from tcpsai.ref_tcp_success_rate
+;
+
+select *
+from tcpsai.ref_down_volume_mb
+from tcpsai.ref_up_volume_mb
+;
+
+select *
+from tcpsai.ref_tcp_up_retx
+from tcpsai.ref_tcp_down_retx
+from tcpsai.ref_tcp_up_ooo
+from tcpsai.ref_tcp_down_ooo
+;
+
+select *
+from tcpsai.ref_srv_up_loss
+from tcpsai.ref_srv_down_loss
+from tcpsai.ref_cl_up_loss
+from tcpsai.ref_cl_down_loss
+;
+
+select
+from tcpsai.ref_srv_rtt_ms
+from tcpsai.ref_cl_rtt_ms
+from tcpsai.ref_srv_rtt_long
+from tcpsai.ref_cl_rtt_long
+;
+
+```
+
 
 ## 2. Alertas
 
